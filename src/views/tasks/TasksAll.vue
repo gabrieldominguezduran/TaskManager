@@ -1,3 +1,3 @@
 <template>
-  <h1>tasks All Route</h1>
+  <h1>Tasks All Route</h1>
 </template>
