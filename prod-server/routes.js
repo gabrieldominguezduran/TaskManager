@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+    value: true
 });
 exports.registerRoutes = registerRoutes;
 
@@ -24,8 +24,8 @@ var _authRoutes2 = _interopRequireDefault(_authRoutes);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function registerRoutes(app) {
-	app.use('/api', _tasksRoutes2.default);
-	app.use('/api', _registerRoutes2.default);
-	app.use('/api', _userRoutes2.default);
-	app.use('/api', _authRoutes2.default);
+    app.use('/api', _tasksRoutes2.default);
+    app.use('/api', _registerRoutes2.default);
+    app.use('/api', _userRoutes2.default);
+    app.use('/api', _authRoutes2.default);
 }
