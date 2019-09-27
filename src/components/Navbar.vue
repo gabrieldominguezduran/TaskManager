@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top custom-bg-dark">
       <router-link to="/" class="navbar-brand">
-        <h1 class="title">Travel Finder</h1>
+        <img style="max-height:25px;" src="../assets/logo.png" /> Task Manager
       </router-link>
       <button
         class="navbar-toggler"
